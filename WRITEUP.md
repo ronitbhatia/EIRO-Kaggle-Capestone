@@ -2,6 +2,8 @@
 
 **Enterprise Incident Response Orchestrator**
 
+**Repository**: [https://github.com/ronitbhatia/EIRO-Kaggle-Capestone](https://github.com/ronitbhatia/EIRO-Kaggle-Capestone)
+
 ## Track
 **Enterprise Agents**
 
@@ -273,7 +275,7 @@ Additionally, the project includes:
 ## Technical Implementation
 
 ### Technology Stack
-- **LLM**: Google Gemini 1.5 Flash (via `google-generativeai`)
+- **LLM**: Google Gemini 2.5 Flash (via `google-generativeai`)
 - **Language**: Python 3.x
 - **Architecture**: Modular agent system with tool integration
 - **Deployment**: Kaggle Notebook compatible

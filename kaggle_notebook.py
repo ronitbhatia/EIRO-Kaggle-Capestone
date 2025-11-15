@@ -325,7 +325,7 @@ def send_notification_tool(recipient: str, subject: str, message: str, priority:
 # ============================================================================
 
 class LLMJudge:
-    def __init__(self, model_name: str = "gemini-1.5-flash"):
+    def __init__(self, model_name: str = "gemini-2.5-flash"):
         self.model = genai.GenerativeModel(model_name)
     
     def evaluate_agent_response(self, agent_name: str, task: str, response: str, 
@@ -615,7 +615,7 @@ class IncidentOrchestrator:
             except:
                 print("WARNING: API key not configured")
         
-        self.model = genai.GenerativeModel("gemini-1.5-flash")
+        self.model = genai.GenerativeModel("gemini-2.5-flash")
         self.session_manager = SessionManager()
         self.logger = ObservabilityLogger()
         self.judge = LLMJudge()

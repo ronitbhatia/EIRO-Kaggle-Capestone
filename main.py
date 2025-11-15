@@ -399,7 +399,7 @@ class IncidentOrchestrator:
             except:
                 print("Warning: API key not configured. Please set GOOGLE_API_KEY environment variable.")
         
-        self.model = genai.GenerativeModel("gemini-1.5-flash")
+        self.model = genai.GenerativeModel("gemini-2.5-flash")
         
         # Initialize utilities
         self.session_manager = SessionManager()

@@ -12,7 +12,7 @@ import google.generativeai as genai
 class LLMJudge:
     """Uses LLM to evaluate agent performance."""
     
-    def __init__(self, model_name: str = "gemini-1.5-flash"):
+    def __init__(self, model_name: str = "gemini-2.5-flash"):
         """Initialize the LLM judge with a Gemini model."""
         self.model = genai.GenerativeModel(model_name)
     

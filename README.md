@@ -2,7 +2,7 @@
 
 **Enterprise Incident Response Orchestrator**
 
-A multi-agent AI system for automated enterprise incident management using Google Gemini and ADK.
+A multi-agent AI system for automated enterprise incident management using Google Gemini 2.5 Flash and ADK.
 
 ## Overview
 
